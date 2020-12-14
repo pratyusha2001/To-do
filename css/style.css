@@ -1,0 +1,124 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topnav
+{
+    padding:15px;
+    background-color: black;
+    color:white;   
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:35px;
+   background: linear-gradient(rgba(68, 1, 77, 0.932), rgba(213, 143, 219, 0.37))
+   
+}
+.button
+{
+    background-color: rgb(181, 182, 243); 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration:none;
+    padding:20px;   
+    margin-bottom:30px 
+    margin-top:0px;
+    font: size 10px;
+    width:70px; 
+    border-radius: 12px ;
+    border-color: aliceblue; 
+    cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(167, 207, 240);
+}
+input[type=text], select {
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: ;px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+    margin-left: 35%;
+    margin-bottom: 20px;;
+    display: inline-block;
+    border: 3px solid rgb(127, 146, 206);
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+  #bnav
+  {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    word-spacing: 30px;
+    color: rgb(255, 255, 255);
+    background:rgb(123, 123, 201) ;
+  }
+  .def
+  {
+    background: linear-gradient( rgba(213, 143, 219, 0.37),rgb(123, 123, 201))
+  }
+  ol{
+    margin:0;
+    padding:0;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid #050305;
+    font-family: Comic Sans MS; 
+    border-color: rgb(14, 14, 14);
+    border-radius:15px solid black;
+  }
+  ol li{
+    position:relative;
+    padding:12px 8px 12px 40px;
+    background: rgb(230, 186, 230);
+    background: rgb(217, 191, 250);
+    font-size:18px; 
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+ol li:nth-child(even)
+{
+    background:#f8e0f8;
+}
+ol li:first-child, li:last-child{
+  padding:15px;
+  border-radius: 12px solid black;
+}
+ol li:hover{
+  background-color: rgb(178, 113, 180);
+}
+ol li.checked{
+  background:#f8efef;
+color:rgb(150, 150, 150);
+
+}
+ol li.checked::before{
+  content:'';
+  position: absolute;
+  border-color:#fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top:7px;
+  left:16px;
+  transform:rotate(45 deg);
+  height:15px;
+  width:7px;
+}
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  cursor:pointer;
+}
+.close:hover {
+  background-color: #e66a6a;
+  color: white;
+  cursor: pointer;
+}
+
